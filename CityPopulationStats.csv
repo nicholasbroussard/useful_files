@@ -1,4 +1,4 @@
-Zip,City,Population,PopulationDensity_PeoplePerSqMi,MilitaryBase,Incorporated,TimeZone,County,Latitude_County,Longitude_County,FIPS_County,StateAbbv,State
+zip,city,population,populationdensity,militarybase,incorporated,timezone,county,latitude_county,longitude_county,fips_county,stateabbv,state
 98580 98387 98338,South Creek,2500,125,FALSE,TRUE,America/Los_Angeles,Pierce County,46.9994,-122.3921,53053,WA,Washington
 98941 98068 98925,Roslyn,947,84,FALSE,TRUE,America/Los_Angeles,Kittitas County,47.2507,-121.0989,53037,WA,Washington
 99032,Sprague,441,163,FALSE,TRUE,America/Los_Angeles,Lincoln County,47.3048,-117.9713,53043,WA,Washington
