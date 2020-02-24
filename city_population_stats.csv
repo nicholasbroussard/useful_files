@@ -4490,6 +4490,7 @@ zip,city,population,population_density,military_base,incorporated,time_zone,coun
 77879,Somerville,1436,186,FALSE,TRUE,America/Chicago,Burleson County,30.346,-96.5311,48051,TX,Texas
 77630,Pinehurst,2073,468,FALSE,TRUE,America/Chicago,Orange County,30.1087,-93.7704,48361,TX,Texas
 76207 76205 76201 76208 76209 76210 76259 76202 76203 76204 76206,Denton,440146,547,FALSE,TRUE,America/Chicago,Denton County,33.2176,-97.1419,48121,TX,Texas
+77498 77478 77479 77487 77496,Sugarland,88485,843,FALSE,TRUE,America/Chicago,Fort Bend County,29.5935,-95.6357,48157,TX,Texas
 77498 77478 77479 77487 77496,Sugar Land,88485,843,FALSE,TRUE,America/Chicago,Fort Bend County,29.5935,-95.6357,48157,TX,Texas
 78582,Ramirez-Perez,47,559,FALSE,TRUE,America/Chicago,Starr County,26.317,-98.6933,48427,TX,Texas
 79007 79008,Borger,13065,560,FALSE,TRUE,America/Chicago,Hutchinson County,35.6598,-101.4012,48233,TX,Texas
