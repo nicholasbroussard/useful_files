@@ -28888,7 +28888,7 @@ zip,city,population,population_density,military_base,incorporated,time_zone,coun
 57332,Emery,455,384,FALSE,TRUE,America/Chicago,Hanson County,43.602,-97.6195,46061,SD,South Dakota
 57201,Watertown,21837,475,FALSE,TRUE,America/Chicago,Codington County,44.9094,-97.1532,46029,SD,South Dakota
 57720,Buffalo,346,241,FALSE,TRUE,America/Denver,Harding County,45.5864,-103.5434,46063,SD,South Dakota
-78002,Atascosa ,8735,208,FALSE,FALSE,America/Chicago,Bexar County,29.5545,-98.3404,48029,TX,Texas
+78002,Atascosa,8735,208,FALSE,FALSE,America/Chicago,Bexar County,29.5545,-98.3404,48029,TX,Texas
 78101,Adkins,6911,135,FALSE,FALSE,,Bexar County,29.5545,-98.3404,48029,TX,Texas
 78616,Dale,500,,FALSE,FALSE,,Caldwell County,29.8785,-97.6831,48055,TX,Texas
 78070,Spring Branch,250,132,FALSE,TRUE,,Comal County,29.8761,-98.2611,48091,TX,Texas
@@ -28918,7 +28918,7 @@ zip,city,population,population_density,military_base,incorporated,time_zone,coun
 ,Plantersville,,,,,,,,,,,
 ,Rainbow,,,,,,,,,,,
 ,Washington,,,,,,,,,,,
-75943,Douglass ,500,25,FALSE,FALSE,America/Chicago,Nacogdoches County,31.8126,-94.8411,48347,TX,Texas
+75943,Douglass,500,25,FALSE,FALSE,America/Chicago,Nacogdoches County,31.8126,-94.8411,48347,TX,Texas
 78024,Hunt,,,,,,,,,,,
 ,Larue,,,,,,,,,,,
 ,Leesville,,,,,,,,,,,
