@@ -26,20 +26,20 @@ colnames(zips) <- c("population_zip_2018", "zip")
 write.csv(zips, 'population_zip_2018.csv', row.names = F)
 
 #Combined populations tables
-population_zip_2015 <- read.csv('C:\\Users\\nicho\\Desktop\\population_zip_2015.csv')
-population_zip_2018 <- read.csv('C:\\Users\\nicho\\Desktop\\population_zip_2018.csv')
+population_zip_2015 <- read.csv('C:\\Users\\nicho\\Desktop\\population_zip_2015.csv', stringsAsFactors = F)
+population_zip_2018 <- read.csv('C:\\Users\\nicho\\Desktop\\population_zip_2018.csv', stringsAsFactors = F)
 
 population_data_zip <- full_join(population_zip_2015, population_zip_2018, by = 'zip') %>%
   select(zip, population_zip_2015, population_zip_2018)
 
-write.csv(population_data_zip, 'C:\\Users\\nicho\\Desktop\\population_data_zip.csv')
+write.csv(population_data_zip, 'C:\\Users\\nicho\\Desktop\\population_data_zip.csv', row.names = F)
 
 
 #population_data_city
 #Downloaded directly from data.census.gov, using topic = 'Population' and geographies = 'place' + 'Texas'.
 #Cleaned up the files from the Census zip file download using Excel. Renamed file name and column names. Removed all cols except for geography and income estimate.
-income_city_2015 <- read.csv('C:\\Users\\nicho\\Desktop\\income_city_2015.csv')
-income_city_2018 <- read.csv('C:\\Users\\nicho\\Desktop\\income_city_2018.csv')
+income_city_2015 <- read.csv('C:\\Users\\nicho\\Desktop\\income_city_2015.csv', stringsAsFactors = F)
+income_city_2018 <- read.csv('C:\\Users\\nicho\\Desktop\\income_city_2018.csv', stringsAsFactors = F)
 
 income_city_2015$city <- as.character(income_city_2015$city)
 income_city_2018$city <- as.character(income_city_2018$city)
@@ -61,13 +61,13 @@ write.csv(income_data_city, 'C:\\Users\\nicho\\Desktop\\income_data_city.csv')
 #income_data_county
 #Downloaded directly from data.census.gov, using topic = 'Population' and geographies = 'county' + 'Texas'.
 #Cleaned up the files from the Census zip file download using Excel. Renamed file name and column names. Removed all cols except for geography and income estimate. 
-income_county_2015 <- read.csv('C:\\Users\\nicho\\Desktop\\income_county_2015.csv')
-income_county_2018 <- read.csv('C:\\Users\\nicho\\Desktop\\income_county_2018.csv')
+income_county_2015 <- read.csv('C:\\Users\\nicho\\Desktop\\income_county_2015.csv', stringsAsFactors = F)
+income_county_2018 <- read.csv('C:\\Users\\nicho\\Desktop\\income_county_2018.csv', stringsAsFactors = F)
 
 income_data_county <- full_join(income_county_2015, income_county_2018, by = 'county') %>%
   select(county, income_county_2015, income_county_2018)
 
-write.csv(income_data_county, 'C:\\Users\\nicho\\Desktop\\income_data_county.csv')
+write.csv(income_data_county, 'C:\\Users\\nicho\\Desktop\\income_data_county.csv', row.names = F)
 
 
 #income_data_zip
@@ -88,20 +88,20 @@ colnames(income_zip_2018) <- c("income_zip_2018", "zip")
 write.csv(income_zip_2018, 'C:\\Users\\nicho\\Desktop\\income_zip_2018.csv', row.names = F)
 
 #combined file
-income_zip_2015 <- read.csv('C:\\Users\\nicho\\Desktop\\income_zip_2015.csv')
-income_zip_2018 <- read.csv('C:\\Users\\nicho\\Desktop\\income_zip_2018.csv')
+income_zip_2015 <- read.csv('C:\\Users\\nicho\\Desktop\\income_zip_2015.csv', stringsAsFactors = F)
+income_zip_2018 <- read.csv('C:\\Users\\nicho\\Desktop\\income_zip_2018.csv', stringsAsFactors = F)
 
 income_data_zip <- full_join(income_zip_2015, income_zip_2018, by = 'zip') %>%
   select(zip, income_zip_2015, income_zip_2018)
 
-write.csv(income_data_zip, 'C:\\Users\\nicho\\Desktop\\income_data_zip.csv')
+write.csv(income_data_zip, 'C:\\Users\\nicho\\Desktop\\income_data_zip.csv', row.names = F)
 
 
 #income_data_city
 #Downloaded directly from data.census.gov, using topic = 'Income and Earnings' and geographies = 'place' + 'Texas'.
 #Cleaned up the files from the Census zip file download using Excel. Renamed file name and column names. Removed all cols except for geography and income estimate.
-income_city_2015 <- read.csv('C:\\Users\\nicho\\Desktop\\income_city_2015.csv')
-income_city_2018 <- read.csv('C:\\Users\\nicho\\Desktop\\income_city_2018.csv')
+income_city_2015 <- read.csv('C:\\Users\\nicho\\Desktop\\income_city_2015.csv', stringsAsFactors = F)
+income_city_2018 <- read.csv('C:\\Users\\nicho\\Desktop\\income_city_2018.csv', stringsAsFactors = F)
 
 income_city_2015$city <- as.character(income_city_2015$city)
 income_city_2018$city <- as.character(income_city_2018$city)
@@ -117,16 +117,16 @@ income_city_2018$city <- str_remove(income_city_2018$city, "town")
 income_data_city <- full_join(income_city_2015, income_city_2018, by = 'city') %>%
   select(city, income_city_2015, income_city_2018)
 
-write.csv(income_data_city, 'C:\\Users\\nicho\\Desktop\\income_data_city.csv')
+write.csv(income_data_city, 'C:\\Users\\nicho\\Desktop\\income_data_city.csv', row.names = F)
 
 
 #income_data_county
 #Downloaded directly from data.census.gov, using topic = 'Income and Earnings' and geographies = 'county' + 'Texas'.
 #Cleaned up the files from the Census zip file download using Excel. Renamed file name and column names. Removed all cols except for geography and income estimate. 
-income_county_2015 <- read.csv('C:\\Users\\nicho\\Desktop\\income_county_2015.csv')
-income_county_2018 <- read.csv('C:\\Users\\nicho\\Desktop\\income_county_2018.csv')
+income_county_2015 <- read.csv('C:\\Users\\nicho\\Desktop\\income_county_2015.csv', stringsAsFactors = F)
+income_county_2018 <- read.csv('C:\\Users\\nicho\\Desktop\\income_county_2018.csv', stringsAsFactors = F)
 
 income_data_county <- full_join(income_county_2015, income_county_2018, by = 'county') %>%
   select(county, income_county_2015, income_county_2018)
 
-write.csv(income_data_county, 'C:\\Users\\nicho\\Desktop\\income_data_county.csv')
+write.csv(income_data_county, 'C:\\Users\\nicho\\Desktop\\income_data_county.csv', row.names = F)

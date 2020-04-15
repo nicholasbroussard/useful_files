@@ -1,61 +1,61 @@
-"","city","income_city_2015","income_city_2018"
-"1","Abilene ",42507,42752
-"2","Allen ",32204,35783
-"3","Amarillo ",74766,77403
-"4","Arlington ",132835,135867
-"5","Atascocita ",24994,25094
-"6","Austin ",364893,390395
-"7","Bay ",28893,27351
-"8","Beaumont ",46133,44288
-"9","Brownsville ",52309,51334
-"10","Bryan ",30599,29701
-"11","Carrollton ",47577,49232
-"12","Cedar Park ",21212,24767
-"13","College Station ",38409,41868
-"14","Conroe ",25298,33852
-"15","Corpus Christi ",117609,116456
-"16","Dallas ",495362,521198
-"17","Denton ",45529,48769
-"18","Edinburg ",25073,28003
-"19","El Paso ",222557,227506
-"20","Flower Mound ",23575,25256
-"21","Fort Worth ",285173,308188
-"22","Frisco ",50480,63562
-"23","Garland ",75582,74489
-"24","Grand Prairie ",58919,62349
-"25","Harlingen ",21447,21504
-"26","Houston ",849974,849105
-"27","Irving ",84684,85295
-"28","Killeen ",51766,52186
-"29","Laredo ",69026,71160
-"30","League City ",35997,37234
-"31","Lewisville ",37593,38738
-"32","Longview ",30457,30554
-"33","Lubbock ",91196,97457
-"34","McAllen ",43578,43937
-"35","McKinney ",55575,63889
-"36","Mesquite ",48835,47591
-"37","Midland ",47237,47827
-"38","Mission ",23669,24385
-"39","Missouri City ",23582,24522
-"40","New Braunfels ",24211,29781
-"41","North Richland Hills ",26068,26130
-"42","Odessa ",40198,42819
-"43","Pasadena ",51820,46703
-"44","Pearland ",37073,42409
-"45","Pharr ",20839,20861
-"46","Plano ",106610,102778
-"47","Richardson ",38816,43922
-"48","Round Rock ",36819,40854
-"49","San Angelo ",37817,37432
-"50","San Antonio ",494344,509964
-"51","Sugar Land ",29712,39378
-"52","Temple ",27319,28805
-"53","The Woodlands ",40446,40491
-"54","Tyler ",38326,35597
-"55","Victoria ",24575,23878
-"56","Waco ",48448,48032
-"57","Wichita Falls ",37173,35436
-"58","George ",NA,28062
-"59","Rowlett ",NA,21477
-"60","Mansfield ",NA,22719
+city,income_city_2015,income_city_2018
+Abilene ,42507,42752
+Allen ,32204,35783
+Amarillo ,74766,77403
+Arlington ,132835,135867
+Atascocita ,24994,25094
+Austin ,364893,390395
+Bay ,28893,27351
+Beaumont ,46133,44288
+Brownsville ,52309,51334
+Bryan ,30599,29701
+Carrollton ,47577,49232
+Cedar Park ,21212,24767
+College Station ,38409,41868
+Conroe ,25298,33852
+Corpus Christi ,117609,116456
+Dallas ,495362,521198
+Denton ,45529,48769
+Edinburg ,25073,28003
+El Paso ,222557,227506
+Flower Mound ,23575,25256
+Fort Worth ,285173,308188
+Frisco ,50480,63562
+Garland ,75582,74489
+Grand Prairie ,58919,62349
+Harlingen ,21447,21504
+Houston ,849974,849105
+Irving ,84684,85295
+Killeen ,51766,52186
+Laredo ,69026,71160
+League City ,35997,37234
+Lewisville ,37593,38738
+Longview ,30457,30554
+Lubbock ,91196,97457
+McAllen ,43578,43937
+McKinney ,55575,63889
+Mesquite ,48835,47591
+Midland ,47237,47827
+Mission ,23669,24385
+Missouri City ,23582,24522
+New Braunfels ,24211,29781
+North Richland Hills ,26068,26130
+Odessa ,40198,42819
+Pasadena ,51820,46703
+Pearland ,37073,42409
+Pharr ,20839,20861
+Plano ,106610,102778
+Richardson ,38816,43922
+Round Rock ,36819,40854
+San Angelo ,37817,37432
+San Antonio ,494344,509964
+Sugar Land ,29712,39378
+Temple ,27319,28805
+The Woodlands ,40446,40491
+Tyler ,38326,35597
+Victoria ,24575,23878
+Waco ,48448,48032
+Wichita Falls ,37173,35436
+George ,NA,28062
+Rowlett ,NA,21477
+Mansfield ,NA,22719
